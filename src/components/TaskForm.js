@@ -10,13 +10,13 @@ export const TaskForm = () => {
         <Row>
           <Col></Col>
           <Col>
-            <Form.Control placeholder="First name" />
+            <Form.Control placeholder="task" className="text-center" />
           </Col>
           <Col>
-            <Form.Control placeholder="Last name" />
+            <Form.Control placeholder="hrs"  className="text-center"/>
           </Col>
           <Col>
-            <Button variant="primary">Primary</Button>{" "}
+            <Button variant="primary">Add task</Button>
           </Col>
           <Col></Col>
         </Row>
